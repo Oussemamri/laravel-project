@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="#4F46E5"/>
+  
+  <!-- Open Book -->
+  <path d="M160 180 L160 360 L250 340 L250 160 L160 180 Z" fill="white" opacity="0.9"/>
+  <path d="M352 180 L352 360 L262 340 L262 160 L352 180 Z" fill="white" opacity="0.9"/>
+  
+  <!-- Book Spine -->
+  <rect x="250" y="160" width="12" height="200" fill="#F59E0B"/>
+  
+  <!-- Bookmark -->
+  <path d="M256 140 L246 160 L256 155 L266 160 Z" fill="#EF4444"/>
+  
+  <!-- Pages Lines -->
+  <line x1="180" y1="220" x2="230" y2="215" stroke="#4F46E5" stroke-width="3" opacity="0.3"/>
+  <line x1="180" y1="250" x2="230" y2="245" stroke="#4F46E5" stroke-width="3" opacity="0.3"/>
+  <line x1="180" y1="280" x2="230" y2="275" stroke="#4F46E5" stroke-width="3" opacity="0.3"/>
+  
+  <line x1="282" y1="215" x2="332" y2="220" stroke="#4F46E5" stroke-width="3" opacity="0.3"/>
+  <line x1="282" y1="245" x2="332" y2="250" stroke="#4F46E5" stroke-width="3" opacity="0.3"/>
+  <line x1="282" y1="275" x2="332" y2="280" stroke="#4F46E5" stroke-width="3" opacity="0.3"/>
+</svg>
