@@ -46,12 +46,15 @@ We've made setup super easy with an automated script:
    - Run migrations and seed sample data
    - Build frontend assets
 
-3. **Start the development server**:
+3. **Start the application**:
    ```powershell
-   composer run dev
+   php artisan serve
    ```
    
-   This starts everything you need: Laravel server, queue worker, and Vite for hot reloading.
+   For AI features (optional), open a second terminal and run:
+   ```powershell
+   php artisan queue:work --queue=ai-tasks
+   ```
 
 4. **Open your browser** and visit `http://localhost:8000`
 
